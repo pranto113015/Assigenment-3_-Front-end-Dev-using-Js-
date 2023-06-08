@@ -1,0 +1,37 @@
+<!-- Make at least 2 objects of Book that has name, author and price properties and keep the
+objects in an array. Output the book details using any array method or loop. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem No-4</title>
+</head>
+<body>
+    <script>
+            let books = [
+                    {
+                        name: "CSC197",
+                        author: "Sivarama",
+                        price: 350
+                    },
+                    {
+                        name: "CSC329",
+                        author: "Maris Mano",
+                        price: 250
+                    }
+];
+
+
+        for (let i = 0; i < books.length; i++) {
+        let book = books[i];
+        console.log("Book Name: " + book.name);
+        console.log("Author: " + book.author);
+        console.log("Price: TK-" + book.price);
+        console.log("************************");
+        }
+
+    </script>
+</body>
+</html>

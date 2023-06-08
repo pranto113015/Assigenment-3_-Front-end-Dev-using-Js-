@@ -1,0 +1,29 @@
+<!-- Write an object for a Car that has name and at least 2 other properties. At least 1
+property should be a function that outputs the name of the Car. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem No-2</title>
+</head>
+<body>
+        <script>
+            const car = {
+                    name: "BMW The X1",
+                    color: "Orange",
+                    year: 2023,
+                    getName: function() {
+                    return this.color;
+                }
+        };
+
+    console.log(car.name); 
+    console.log(car.color); 
+    console.log(car.year);      
+    console.log(car.getName()); 
+
+    </script>
+</body>
+</html>
